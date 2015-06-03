@@ -46,8 +46,6 @@ Bash is a command processor that typically runs in a text window, where the user
 * piping
 * package managers / how to get "programs" with Brew
 
-
-
 #The Commands
 
 ###pwd
@@ -144,6 +142,18 @@ Up and down arrow keys
 ##Using Aliases
 Aliases save you loads of time by shortening long, complicated commands down into really simple ones, or by setting the default parameters to a command so you don't have to type them every time. For instance, if you wanted to set up an alias for installing packages on your Ubuntu setup that's quicker and simpler than sudo apt-get install packagename, you could use something like this:
 
-alias agi='sudo apt-get install'
+alias ll="ls -l"
 
-### bash_rc
+###Package Manager - Homebrew
+
+* Homebrew is a package manager, sort of like an open source app store for the terminal on OS X. Go to [this website](brew.sh) and it will tell you to copy this command to the terminal and run it to install brew on your system.
+
+```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+
+Some useful brew programs:
+
+Fish (an alternative Shell i prefer) - brew install fish
+imagemagick - brew install imagemagick
+sox - audio player and audio manipulating
+fortune - gives you a random fortune
+mailcheck - checks all of your inboxes at once
