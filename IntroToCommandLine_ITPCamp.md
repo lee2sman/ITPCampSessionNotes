@@ -152,8 +152,8 @@ alias ll="ls -l"
 
 Some useful brew programs:
 
-Fish (an alternative Shell i prefer) - brew install fish
-imagemagick - brew install imagemagick
-sox - audio player and audio manipulating
-fortune - gives you a random fortune
-mailcheck - checks all of your inboxes at once
+* Fish (an alternative Shell i prefer) - brew install fish
+* imagemagick - brew install imagemagick
+* sox - audio player and audio manipulating - brew install sox 
+* fortune - gives you a random fortune - brew install fortune 
+* mailcheck - checks all of your inboxes at once - brew install mailcheck
