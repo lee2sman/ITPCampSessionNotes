@@ -73,10 +73,3 @@ Open your browser and navigate to [localhost:8000](http://localhost:8000/)
 
 * Adding P5Sound library
 * How to load sound / getting it to work with your Digital Modernism
-
-
-
-
-
-
-
