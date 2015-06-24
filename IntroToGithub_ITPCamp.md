@@ -154,3 +154,4 @@ Find which branch you're in
 *   git merge version2
 
  
+Here is a wee note, probably not a great addition. (mifga)
