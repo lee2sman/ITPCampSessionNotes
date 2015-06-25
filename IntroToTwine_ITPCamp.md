@@ -23,39 +23,18 @@ Intro To Twine / Choose-Your-Own-Adventure Games
 * Interactive Art
 * Prototyping
 
-# How to build a Twine game?
-
-### Passages (like your levels)
-* Enclose passages in double brackets ```[[This is a passage]]```
-
-### Images
-* To import images, drag into twine or Story -> Import
-* Use images with ```[img[The Name of the Image]]```
-
-### Optional: Styling
-
-* [Style with CSS](http://twinery.org/wiki/stylesheet)
-* [Use variables](http://twinery.org/wiki/expression)
-
-
-### Share Your Twine
-
-* Select Build -> Build Story to turn your Twine into an HTML file.
-* Put your twine game in dropbox, on neocities, your own server/website, or post to [philome](http://philome.la/)
-
-
 # A not-comprehensive sample of games
 (these categories and suggestions come from [here](http://gamasutra.com/blogs/LizEngland/20150313/238709/What_is_Twine_For_Developers.php) )
 
 ### Playful Gamelikes
 
 [Candy Quest 3: Edge of Sweetness](http://smestorp.itch.io/candy-quest-3-edge-of-sweetness) by Michael Brough
+
 [It Is Pitch Black](http://inurashii.xyz/it-is-pitch-black/) by Caelyn Sandel
+
 [Ultra Business Tycoon](http://aliendovecote.com/uploads/twine/tycoon/crime.html) by Porpentine
 
 ### Adventure Games
-
-Closer to the CYOA style of game books with non-linear storytelling and interesting choices. This would be Mass Effect without the combat, or Walking Dead.
 
 [Ziva's Conjury Mart](http://toryhoke.com/wp-content/uploads/twine/zcm/zivas_conjury_mart.html) by Tory Hoke
 
@@ -66,6 +45,7 @@ Closer to the CYOA style of game books with non-linear storytelling and interest
 ### Surrealism and Satire
 
 [Cry$tal Warrior Ke$ha](http://aliendovecote.com/uploads/twine/kesha.html) by Porpentine
+
 [Horsemaster](http://noncanon.com/HorseMaster.html) by Tom Chenry
 
 ### Socio-Political Commentary
@@ -88,6 +68,25 @@ Closer to the CYOA style of game books with non-linear storytelling and interest
 
 [Hotwine Miami](http://ludo.mwclarkson.com/hotwine-miami.html) by Sparky Clarkson
 
+# How to build a Twine game?
+
+### Passages (like your levels)
+* Enclose passages in double brackets ```[[This is a passage]]```
+
+### Images
+* To import images, drag into twine or Story -> Import
+* Use images with ```[img[The Name of the Image]]```
+
+### Optional: Styling
+
+* [Style with CSS](http://twinery.org/wiki/stylesheet)
+* [Use variables](http://twinery.org/wiki/expression)
+
+### Share Your Twine
+
+* Select Build -> Build Story to turn your Twine into an HTML file.
+* Put your twine game in dropbox, on neocities, your own server/website, or post to [philome](http://philome.la/)
+
 # Jam Session / Mini Twine Game
 
 * Let's follow the [Twiny Jam](https://itch.io/jam/twiny) rules and make games with less than 300 words
@@ -100,4 +99,4 @@ Closer to the CYOA style of game books with non-linear storytelling and interest
 * [Trans Women and the New Hypertext](http://www.lambdaliterary.org/features/07/08/trans-women-the-new-hypertext/) by Merritt Kopas
 * [Twine: The Videogame Technology for All](http://www.nytimes.com/2014/11/23/magazine/twine-the-video-game-technology-for-all.html) by Laura Hudson
 * [The 8 Lessons I learned From Making a Twine Game With Less Than 300 Words](http://gamasutra.com/blogs/StuartLilford/20150422/241624/The_8_lessons_I_learned_from_making_a_Twine_game_with_less_than_300_words.php)
-* 
+* [Rise Of the Videogame Zinesters](www.amazon.com/Rise-Videogame-Zinesters-Drop-outs-Housewives/dp/1609803728) book by Anna Anthropy is highly recommended!
