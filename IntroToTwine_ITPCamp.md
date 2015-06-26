@@ -77,27 +77,28 @@ Intro To Twine / Choose-Your-Own-Adventure Games
 # Note: There are 2 main versions of Twine
 
 * Twine 1.0 has been around for about 5 years with steady improvement
-* Twine 2.0 (and improvements) was published in February 2015. It looks nice but is buggy! Many people use the old Twine 1.0 because of this! When looking for help, make sure you note the differences between Twine 1.0 and Twine 2.0!
-* **Which version should you use?** If you are just doing text and maybe some minimal other things (CSS styling, for example) or you know how to code, then Twine 2.0 is fine.
-* If you are starting out or want to easily use extended features (audio, video, etc) then maybe stick to Twine 1.0!
+* Twine 2.0 (and improvements) was published in February 2015. It looks nice but is a bit buggy! Many people use the old Twine 1.0 because of this! When looking for help, make sure you note the differences between Twine 1.0 and Twine 2.0!
+* **Which version should you use?** If you are only doing text or if you know some HTML, then Twine 2.0 is fine.
+* If you want to more easily use extended features (audio, video, etc) but don't know HTML, CSS and Javascript then maybe stick to Twine 1.0.
 
 # How to build a Twine game?
 
 1. Start twine-ing! Go to [[twinery.org]](http://twinery.org) and use the downloadable Twine app (open the index.html file) or use it online.
-2. Create a title and click the +Passage button in the bottom right to open a screen to create your first room/area.
+2. For the online Twine 2.0 tool, you create a title and click the +Passage button in the bottom right to open a screen to create your first room/area.
 3. Start typing your first intro screen. Create a title and write the text and click on the rocket button to make it your start page (online version of Twine 2.0.6)
-4. A Twine story is built out of passages! Make pages and links!
+4. A Twine story is built out of passages! Make pages and links! (see below)
 5. Make sure you are saving and exporting your story often!
 
 ### Passages (like your levels)
 * Enclose passages in double brackets ```[[This is a passage]]```
-* Readers can see one word/phrase but jump to a different page if you write it like this ```[[Words in your story|Page You want to Jump To]]
+* Readers can see one word/phrase but jump to a different page if you write it like this ```[[Words in your story|Page You want them to actually Jump To]]
 
 ### Images
-* In Twine 2.0, read the [[documentation]](http://twinery.org/wiki/twine2:add_an_image_movie_sound_effect_or_music). The basics for Twine 2.0 are:
-* * Upload your images somewhere like dropbox and get their links
-* * Use them in your passage like this. ```<img src="the URL of your image" width="500" height="300" alt="Two foxes">```
-* In Twine 1.0, drag into twine or Story -> Import
+* Twine 2.0 requires that your images be located online (for example upload to a public linkable dropbox file). 
+* On the page where you want your image you type in traditional HTML ```<img src="http://locationOfImageFile.jpg" width="20" height="20" alt="alternate text">```
+* This can link to a passage if you like as well if you wrap it.
+* For more on Twine 2.0, including how you can add video or sound effects, read the [[documentation]](http://twinery.org/wiki/twine2:add_an_image_movie_sound_effect_or_music)
+* In **Twine 1.0**, drag your image into Twine or go to Story -> Import
 * Use images with ```[img[The Name of the Image]]```
 * More ways to use images [here](http://twinery.org/wiki/image).
 
