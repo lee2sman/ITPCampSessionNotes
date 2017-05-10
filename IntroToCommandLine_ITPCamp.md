@@ -1,13 +1,13 @@
 Intro To The Command Line
 =========================
 
-#Welcome
+# Welcome
 
 * About Me
 * Goals of this session
 * What do you want to learn? (questions?)
 
-#Why use the command line in 2015?
+# Why use the command line in 2015?
 
 *   simplicity and minimalism (see [article](http://en.wikipedia.org/wiki/Unix_philosophy) on Unix philosophy)
 *   ubiquity - nearly every computer from OS X, Raspberry Pi to web servers, internet devices, routers and robots can be controlled through the command line, and even more devices are being created that can be interacted with that are online (the so-called "Internet Of Things")
@@ -29,7 +29,7 @@ Intro To The Command Line
 * Mac Os X - Terminal
 * On Windows we're going to use PowerShell. If you have Windows 7 or later, do this: 1. Click Start. 2. In "Search programs and files" type: powershell 3. Hit Enter.
 
-#Definitions
+# Definitions
 
 The **command-line interface**, sometimes referred to as the CLI, is a tool into which you can type text commands to perform specific tasks—in contrast to the mouse's pointing and clicking on menus and buttons. Since you can directly control the computer by typing, many tasks can be performed more quickly, and some tasks can be automated with special commands that loop through and perform the same action on many files—saving you, potentially, loads of time in the process.
 
@@ -39,20 +39,20 @@ The application or user interface that accepts your typed responses and displays
 
 Bash is a command processor that typically runs in a text window, where the user types commands that cause actions. Bash can also read commands from a file, called a script. 
 
-#Getting Started
+# Getting Started
 
 * moving around
 * some simple commands/programs
 * piping
 * package managers / how to get "programs" with Brew
 
-#The Commands
+# The Commands
 
-###pwd
+### pwd
 
 * print working directory
 
-###ls
+### ls
 
 * First, let's display a list of files inside the active folder. You can pass a number of parameters to the command to display extra details or change the sorting. For instance, if I add -l to the end of my ls command, I'll see a detailed listing; -S will sort by file size; and -r will reverse the sorting. You could use a combination of these together, like this command, which will show all files sorted by file size with the largest files at the bottom:
 * if you do -a there are two entries for "." and ".." at the beginning of the list. These represent the current folder—the "." folder—and the parent folder—the ".." folder.
@@ -61,7 +61,7 @@ Bash is a command processor that typically runs in a text window, where the user
 * ls -1
 * on a PC it is DIR
 
-###cd
+### cd
 
 change between directories using the cd command
 
@@ -70,49 +70,49 @@ change between directories using the cd command
 * cd ..
 * cd -
 
-###mkdir
+### mkdir
 
 * make a fdolder
 
-###rmdir
+### rmdir
 
 * remove it
 
-###touch
+### touch
 
 * make a blank file
 
-###rm
+### rm
 
 * delete a blank file
 * rm filename
 * rm * (remove everything in the file)
 
-###nano filename
+### nano filename
 
 * edits or creates a file to edit
 
-###more or less
+### more
 
 * lets you read contents of a screen
 
-###Find a Text String in Files
+### Find a Text String in Files
 
 The grep command can be used to quickly find text within files, even searching through subdirectories. For instance, if you wanted to search through all files in the current directory and below it for "text string", you could use this command:
 
 grep –ir "text string" *
 
-###man
+### man
 
 Manuals/help
 
-###Stop a command
+### Stop a command
 
 Control - C
 Quit out of reading with q
 
 
-##Command Redirection
+## Command Redirection
 
 Each command line application can accept standard input and writes to standard output, and you can use the > or | operators to redirect output from one command into another, which lets you chain commands together into much more powerful commands.
 
@@ -135,16 +135,16 @@ If you have an application or shell script in the current folder, you can't simp
 
 ./scriptname.sh
 
-##History
+## History
 
 Up and down arrow keys
 
-##Using Aliases
+## Using Aliases
 Aliases save you loads of time by shortening long, complicated commands down into really simple ones, or by setting the default parameters to a command so you don't have to type them every time. For instance, if you wanted to set up an alias for installing packages on your Ubuntu setup that's quicker and simpler than sudo apt-get install packagename, you could use something like this:
 
 alias ll="ls -l"
 
-###Package Manager - Homebrew
+### Package Manager - Homebrew
 
 * Homebrew is a package manager, sort of like an open source app store for the terminal on OS X. Go to [this website](brew.sh) and it will tell you to copy this command to the terminal and run it to install brew on your system.
 
